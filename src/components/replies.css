@@ -1,12 +1,12 @@
 .createcontainer {
     justify-content: center;
     align-items: center;
-    margin-top: 3.5rem;
 }
 .Profile {
-    font-size: 24px;
+    font-size: 18px;
     margin-right: 1rem ;
     margin-top: 1rem;
+    margin-bottom: 1px;
 }
 .upload {
     display: flex;
@@ -19,7 +19,7 @@
     justify-content: space-between;
 }
 .btn {
-    font-size: 25px;
+    font-size: 20;
     padding: 10px;
     margin-top: 1rem;
 }

@@ -9,7 +9,7 @@ function MyRoute() {
     <div>
       <div style={{ display: "flex" }}>
         <div style={{ width: "27%" }}></div>
-        <div style={{ width: "46%" }}>
+        <div style={{ width: "40%" }}>
           <BrowserRouter>
             <App  />
             <Routes>
@@ -19,8 +19,8 @@ function MyRoute() {
           </BrowserRouter>
         </div>
         <div style={{ width: "27%" }}>
-          <div style={{display:"flex",position:"fixed",marginTop:"30rem",marginLeft:"5rem"}}>
-            <img style={{width:"350px"}} src="../../public/images/QRw.png" alt="QR" />
+          <div style={{display:"flex",position:"fixed",marginTop:"25rem",marginLeft:"13rem"}}>
+            <img style={{width:"200px"}} src="https://i.imgur.com/wE3f6Kb.png" alt="QR" />
           </div>
         </div>
       </div>

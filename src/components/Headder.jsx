@@ -4,7 +4,7 @@ import './headder.css'
 function Headder() {
   return (
     <div className='add' >
-        <img className='threadlogo' src="../../src/assets/Threade logo.png" alt="" />
+        <img className='threadlogo' src="https://i.imgur.com/FLcOEqm.png" alt="" />
     </div>
   )
 }

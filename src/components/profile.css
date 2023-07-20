@@ -15,6 +15,9 @@
         width: 130px;
         height: 130px;
     }
+    .headname {
+        font-size: 32px;
+    }
     .ridwansalafi {
         display: flex;
         width: 100%;
@@ -23,7 +26,7 @@
 
     }
     .secondname {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
 
     }
@@ -36,6 +39,7 @@
         color: #616161;
         font-size: 16px;
         cursor: pointer;
+        margin-top: -2px;
     }
     .footer {
         display: flex;
@@ -47,11 +51,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100px;
+        width: 80px;
+        margin-right: 16px;
     }
     .follower{
         color: #616161;
-        font-size: 22px;
+        font-size: 18px;
     }
     .follower:hover {
         cursor: pointer;
@@ -59,13 +64,13 @@
     }
     .ig {
         object-fit: contain;
-        width: 35px;
+        width: 28px;
         transition: all 200ms;
         margin-right: 15px;
     }
     .threedot {
         object-fit: contain;
-        width: 33px;
+        width: 28px;
         padding: 2.5px 2.5px;
         border: 2px solid white;
         border-radius: 100%;
@@ -73,10 +78,10 @@
 
     }
     .ig:hover {
-        width: 38px;
+        width: 33px;
         cursor: pointer;
     }
     .threedot:hover {
-        width: 35px;
+        width: 31px;
         cursor: pointer;
     }
