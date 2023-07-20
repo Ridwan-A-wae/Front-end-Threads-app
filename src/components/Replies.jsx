@@ -31,6 +31,7 @@ function Replies() {
   return (
     <div className="threads">
       <form>
+        <h1>Form</h1>
         <div className="createcontainer">
           <div className="upload">
             <p className="Profile">Profile</p>
