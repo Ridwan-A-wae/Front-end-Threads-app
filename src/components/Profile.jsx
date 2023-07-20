@@ -16,7 +16,7 @@ function Profile() {
           </div>
           <img
             className="profileimg"
-            src="../../src/assets/profile.png"
+            src="../../public/images/profile.png"
             alt=""
           />
         </div>
@@ -28,14 +28,14 @@ function Profile() {
             {" "}
             <img
               className="ig"
-              src="../../src/assets/igw.png"
+              src="../../public/images/igw.png"
               alt="instragram"
             />
           </a>
           <a target="_blank" href="https://github.com/Ridwan-A-wae">
             <img
               className="threedot"
-              src="../../src/assets/dotw.png"
+              src="../../public/images/dotw.png"
               alt="..."
             />
           </a>

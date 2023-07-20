@@ -43,7 +43,7 @@ function Threads() {
           <div key={item.id} className="headtheads">
             <img
               className="iconthreads"
-              src="../../src/assets/profile.png"
+              src={item.image}
               alt="logo"
             />
             <div className="post">

@@ -20,7 +20,7 @@ function MyRoute() {
         </div>
         <div style={{ width: "27%" }}>
           <div style={{display:"flex",position:"fixed",marginTop:"30rem",marginLeft:"5rem"}}>
-            <img style={{width:"350px"}} src="../src/assets/QRw.png" alt="QR" />
+            <img style={{width:"350px"}} src="../../public/images/QRw.png" alt="QR" />
           </div>
         </div>
       </div>

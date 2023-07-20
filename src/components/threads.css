@@ -11,10 +11,12 @@
   height: 60px;
   border-radius: 100%;
   margin-right: 15px;
+  cursor: pointer;
 }
 .name {
   margin-top: -0.3rem;
   font-size: 20px;
+  cursor: pointer;
 }
 .comment {
   font-size: 18px;
