@@ -46,12 +46,12 @@ function Replies() {
                 padding: "1rem",
                 backgroundColor: "white",
                 color: "black",
-                fontSize: "16px",
+                fontSize: "18px",
               }}
             />
           </div>
           {preview && <img
-            style={{ objectFit: "contain", width: "80px", height: "80px",marginBottom:"-1rem" }}
+            style={{ objectFit: "contain", width: "80px", height: "120px",marginBottom:"-1rem" }}
             src={preview}
             alt="previewImage"
           />}
@@ -69,7 +69,7 @@ function Replies() {
               <textarea
                 onChange={(e) => setPost(e.target.value)}
                 value={post}
-                style={{ fontSize: "16px", height: "80px", color: "#1e1e1e" }}
+                style={{ fontSize: "16px", height: "180px", color: "#1e1e1e" }}
                 className="form-control"
                 placeholder="What's on your mind"
                 name=""
