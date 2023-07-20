@@ -1,0 +1,61 @@
+.threads {
+  margin-top: 3rem;
+}
+.headtheads {
+  display: flex;
+  border-bottom: 1px solid #616161;
+  margin-bottom: 2rem;
+}
+.iconthreads {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.name {
+  margin-top: -0.3rem;
+  font-size: 20px;
+}
+.comment {
+  font-size: 18px;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+  width: 300px;
+}
+.bi {
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms;
+}
+.bi:hover {
+  background-color: #232323;
+}
+.likesfoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 10px;
+}
+.likes {
+  color: #616161;
+  font-size: 20px;
+}
+.times {
+  color: #616161;
+  font-size: 20px;
+}
+.commentsinput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}

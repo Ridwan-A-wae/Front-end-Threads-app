@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 80px;
+}
+.ul {
+    display: flex;
+    list-style: none;
+    
+}
+.li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 440px;
+    height: 70px;
+
+    border-bottom: 1px solid #616161;
+    transition: all 300ms;
+    
+}
+.link {
+    padding-top: 1.5rem;
+    width: 800px;
+    height: 70px;
+    font-size: 24px;
+    color: #616161;
+    transition: all 300ms;
+}
+.link:hover {
+    height: 70px;
+    border-bottom: 1px solid #ffff;
+    color: #ffff;
+}
+.active {
+    height: 70px;
+    border-bottom: 1px solid #ffff;
+    color: #ffff;
+}

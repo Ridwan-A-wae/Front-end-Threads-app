@@ -1,0 +1,82 @@
+.profilecon {
+    display: flex;
+    justify-content: center;
+    }
+    .profilenav {
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        width: 100%;
+        padding: 0 2rem;
+        margin: 3rem 0;
+    }
+    .profileimg {
+        border-radius: 100%;
+        width: 130px;
+        height: 130px;
+    }
+    .ridwansalafi {
+        display: flex;
+        width: 100%;
+        margin-top: -5px;
+        gap: 5px;
+
+    }
+    .secondname {
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+    .btnthreads {
+        width: 90px;
+        height: 35px;
+        border-radius: 1.5rem;
+        background-color: #1e1e1e;
+        border: none;
+        color: #616161;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2.5rem;
+        margin-top: -70px;
+    }
+    .more {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100px;
+    }
+    .follower{
+        color: #616161;
+        font-size: 22px;
+    }
+    .follower:hover {
+        cursor: pointer;
+        border-bottom: 1px solid #616161;
+    }
+    .ig {
+        object-fit: contain;
+        width: 35px;
+        transition: all 200ms;
+        margin-right: 15px;
+    }
+    .threedot {
+        object-fit: contain;
+        width: 33px;
+        padding: 2.5px 2.5px;
+        border: 2px solid white;
+        border-radius: 100%;
+        transition: all 200ms;
+
+    }
+    .ig:hover {
+        width: 38px;
+        cursor: pointer;
+    }
+    .threedot:hover {
+        width: 35px;
+        cursor: pointer;
+    }

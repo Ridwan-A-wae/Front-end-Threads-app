@@ -1,0 +1,16 @@
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 30px;
+}
+.threadlogo {
+    object-fit: contain;
+    width: 30px;
+    transition: all 200ms;
+}
+.threadlogo:hover {
+    width: 35px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.createcontainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+.Profile {
+    font-size: 24px;
+    margin-right: 1rem ;
+    margin-top: 1rem;
+}
+.upload {
+    display: flex;
+    justify-content: center;
+
+}
+.conbtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 1rem;
+}
